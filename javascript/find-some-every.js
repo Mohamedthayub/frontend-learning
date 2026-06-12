@@ -90,3 +90,31 @@ if(isPassed){
 else{
     console.log("Students are not Passed");
 };
+
+
+/*
+Real-World Examples
+find()
+
+Login system:
+
+users.find(user => user.email === enteredEmail);
+
+"Find this user."
+
+some()
+
+Shopping cart:
+
+cart.some(item => item.quantity === 0);
+
+"Is any item out of stock?"
+
+every()
+
+Form validation:
+
+fields.every(field => field.isValid);
+
+"Are all fields valid?"
+*/
