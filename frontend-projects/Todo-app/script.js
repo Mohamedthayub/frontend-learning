@@ -71,10 +71,12 @@ addButton.addEventListener("click",() => {
 themeButton.addEventListener("click",() => {
     if(bodyColor.style.backgroundColor == "white"){
         bodyColor.style.backgroundColor = "black"; 
-        todoCountText.style.color = "white";     
+        themeButton.textContent = "Light"
+        todoCountText.style.color = "white";
     }
     else{
         bodyColor.style.backgroundColor = "white";
         todoCountText.style.color = "black";
+        themeButton.textContent = "Dark";
     }
 })
