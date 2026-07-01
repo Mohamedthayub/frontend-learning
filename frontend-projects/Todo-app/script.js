@@ -99,7 +99,6 @@ themeButton.addEventListener("click",() => {
 function saveData(){
     localStorage.setItem("todo-data",todoItemContainer.innerHTML) ;  
     localStorage.setItem("todo-count",todoCount);
-
 }
 
 
