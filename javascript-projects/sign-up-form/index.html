@@ -7,22 +7,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="" id="user-form">
+    <form action="" id="user-form" >
         <h1>SignUp Form</h1>
         <div class="username-container">
             <label for="">Username:</label>
             <input type="text" id="user-name" >
+            <span id="username-error"></span>
         </div>
         <div class="email-container">
              <label for="">Email:</label>
             <input type="email" id="user-email">
+            <span id="email-error"></span
         </div>
         <div class="password-container">
             <label for="">Password:</label>
             <input type="password" id="user-password" >
+            <span id="password-error"></span>
         </div>
         <div class="btn-container">
-            <button class="signup-button">Sign Up</button>
+            <button id ="signup-button">Sign Up</button>
         </div>
     </form>
     <script src="script.js">

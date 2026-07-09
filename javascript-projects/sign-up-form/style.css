@@ -48,6 +48,8 @@ input{
 
 }
 .btn-container{
+    display: flex;
+    justify-content: center;
     margin-top: 15px;
    
 }
@@ -59,4 +61,7 @@ button{
     border-radius: 5px;
     border: none;
     width: 100px;
+}
+span{
+    color: red;
 }
