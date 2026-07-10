@@ -1,23 +1,7 @@
-// const hour = document.querySelector('.hour');
-// const minute = document.querySelector('.minute');
-// const second = document.querySelector('.second');
-// const ampm = document.querySelector('.ampm');
-
-// const { data } = require("react-router");
-
-// function time() {
-//     let now = new Date();
-//     let hours = now.getHours();
-//     let minutes  = now.getMinutes();
-//     let seconds = now.getSeconds();
-//     if(hours > 12){
-//         hours =  hours - 12;
-//         hour.textContent = hours;
-//     }
-   
-// }
-
-// setInterval(time,1000);
+const clock_hour = document.querySelector('.hour');
+const clock_minute = document.querySelector('.minute');
+const clock_second = document.querySelector('.second');
+const clock_ampm = document.querySelector('.ampm');
 
 
 function showTime(){
@@ -31,8 +15,11 @@ function showTime(){
     hours = hours === 0 ? 12 : hours;
     hours = String(hours).padStart(2,"0");
     
-    console.clear();
-    console.log(`${hours} : ${minutes} : ${seconds} ${ampm}`);
+    clock_hour.textContent = hours;
+    clock_minute.textContent = minutes;
+    clock_second.textContent = seconds;
+    clock_ampm.textContent = ampm;
+    
 }
 showTime();
 setInterval(showTime,1000);
