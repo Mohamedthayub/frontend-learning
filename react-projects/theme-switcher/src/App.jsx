@@ -1,27 +1,26 @@
 import { useState } from "react";
-
 const App = () => {
-  const [theme,setTheme] = useState("Dark");
-  const AppStyle = {
-    display:'flex',
-    justifyContent:'center',
-    alignItems:'center',
-    height:'100vh',
-    flexDirection:'column',
-    backgroundColor:theme == "Dark" ? setTheme("white") : setTheme("black")
-  }
-  const btnStyle = {
-    width:'150px',
-    borderRadius:'10px',
-    padding:'10px',
-    fontWeight:'bold',
-    fontSize:'15px'    
+  const [theme ,setTheme]  = useState("Dark");
+  const btnClick = () => {
+    setTheme(prev => prev === "Dark" ? "Light" : "Dark");
   }
   return (
-    <div className="app" style={AppStyle}>
-      <h1>Theme Switcher</h1>
+    <div className="App" style={{
+      display:"flex",
+      justifyContent:"center",
+      "alignItems":"center",
+      "flexDirection":"column",
+      "height":"100vh",
+      "backgroundColor": theme === "Dark" ? "white" : "black"
+    }}>
+      <h1 style={{
+        color:theme === "Dark" ? "black" : "white"
+      }}>Theme Switcher</h1>
       <div className="btn-container">
-        <button onClick={() => (theme == 'Dark') ? setTheme('Light') : setTheme("Dark")} style={btnStyle}>{theme}</button>
+        <button onClick={btnClick} style={{
+          "backgroundColor":theme === "Dark" ? "black" : "white",
+          "color" : theme === "Dark" ? "white" : "black"
+        }}>{theme}</button>
       </div>
     </div>
   )
