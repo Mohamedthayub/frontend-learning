@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+
+body{
+    font-family: "Overpass", sans-serif;
+    background-color: yellow;
+}
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+h1{
+  font-size:5rem;
+}
+.clock-container{
+  margin-top:50px;
+}
+span{
+  font-size: 4rem;
+  font-weight: 600;
+}
