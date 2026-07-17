@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+
+
+body{
+    font-family: "Overpass", sans-serif;
+    background-color:wheat;
+}
+.form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.username-container,.email-container,.password-container{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+label{
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+input{
+  padding:10px;
+  width: 400px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.btn-container{
+  margin-top: 20px;
+}
+button{
+  background-color: black;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: white;
+  border: none;
+  width: 150px;
+  padding: 10px;
+  
+}
