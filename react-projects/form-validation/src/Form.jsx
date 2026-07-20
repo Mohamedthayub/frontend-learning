@@ -11,6 +11,7 @@ const Form = () => {
     const [email , setEmail] = useState("");
     const [password , setPassword] = useState("");
     const [confirmPassword, setConfirmPassword] = useState("");
+    const [shPassword,shShowPassword] = useState("password");
     const [message,setMessage] = useState({
         success:false,
         message:""
@@ -121,6 +122,14 @@ const Form = () => {
             });
         }
     }
+    const showPassword = () => {
+        if(shPassword == "password"){
+            shShowPassword("text");
+        }        
+        else{
+            shShowPassword("password");
+        }
+    }
     return (
         <form className="form" onSubmit={isValid}>
             <h1>Sign in Form</h1>
@@ -142,11 +151,11 @@ const Form = () => {
         
             <div className="confirm-password-container">
                 <div className="password-show-icon">
-                    <p>👁️Show</p>
+                    <p onClick={showPassword}>👁️Show</p>
                 </div>
                 <div className="inside-container">
                     <label htmlFor="confirm-password">Confirm Password:</label>
-                    <input type="password" value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} id="confirm-password"/>
+                    <input type={shPassword} value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} id="confirm-password"/>
                     <span>{error.confirmPasswordError}</span>
                 </div>
             </div>
