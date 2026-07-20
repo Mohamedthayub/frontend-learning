@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: monospace;
+}
+
+main{
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+button{
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+button{
+    margin-left: 20px;
+}
+.btn-container{
+    margin-top: 30px;
+}
+
+#start-btn{
+    background-color: green;
+}
+#stop-btn{
+    background-color: red;
+}
+#reset-btn{
+    background-color: yellow;
+}
