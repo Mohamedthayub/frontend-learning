@@ -57,8 +57,19 @@ h2 {
 
 
 .button-container {
-  background-color:hsl(150,100%,66%);
   padding:10px;
   border-radius:50%;
   padding-bottom: 6px;
+}
+.error-message{
+  color: red;
+}
+button{
+  color: hsl(218, 23%, 16%);
+  background-color: hsl(150,100%,66%); 
+  font-weight: bold;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
 }
