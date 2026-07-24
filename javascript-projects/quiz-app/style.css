@@ -7,5 +7,71 @@
 }
 body{
       font-family: "Outfit", sans-serif;
+}
 
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.app{
+    background-color:cyan;
+    padding: 25px;
+    border-radius: 10px;
+    width: 800px;
+}
+.quiz-app{
+    margin-top: 10px;
+}
+.quiz-option-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+p{
+    margin-top: 5px;
+}
+.btn-container{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 16px;     
+}
+button:hover{
+    background-color: rgb(33, 33, 33);
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
 }
