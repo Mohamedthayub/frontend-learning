@@ -1,7 +1,7 @@
 import Todo from "./component/Todo";
 const App = () => {
   return (
-    <div>
+    <div className="app">
       <Todo/>
     </div>
   )

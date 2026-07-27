@@ -1,41 +1,47 @@
 import { useEffect, useRef, useState } from "react";
-import "../CSS/Todo.css"
-import Todoitems from "./TodoItem";
-let count = 0;
+import "../CSS/Todo.css";
+import TodoItems from "./Todoitem";
+// import { preview } from "vite";
+let index  = 0;
 const Todo = () => {
-    const [todos , setTodos ] = useState([]);
+    const [todos,setTodos] = useState([]);
     const inputRef = useRef(null);
-    const add = () => {
-        setTodos([...todos,{no:count++,text:inputRef.current.value,display:""}])
-        inputRef.current.value = "";
-        localStorage.setItem('todo-count',count);
-    
+    const [todocount,setTodocount]  = useState(0);
+    const addData  =  () => {
+        if(inputRef.current.value == ""){
+            alert("it should not be empty");
+        }
+        else{
+            setTodocount(todocount + 1);
+            setTodos([...todos,{no:index++,text:inputRef.current.value,display:""}]);
+            setTodocount(todocount + 1);
+            inputRef.current.value = "";
+        }
     }
     useEffect(() => {
+        index = localStorage.getItem("todos-index") || 0;
         setTodos(JSON.parse(localStorage.getItem("todos")) || []);
-        count = localStorage.getItem('todo-count');
-    },[]);
 
+    },[]);
     useEffect(() => {
         setTimeout(() => {
-            localStorage.setItem("todos",JSON.stringify(todos));            
-        },100)
+            localStorage.setItem('todos',JSON.stringify(todos));
+            localStorage.setItem('todos-index',index);
+        },100);
     },[todos]);
 
-    // console.log(todos);
     return (
-        <div className="todo">
-            <div className="todo-header">
-                To-Do List
+        <div className="Todo">
+            <h1>Todo Project</h1>
+            <p>Todo Count : {todocount}</p>
+            <div className="user-input">
+                <input type="text" ref={inputRef} />
+                <button onClick={addData} className="add-btn" on>ADD</button>
             </div>
-            <div className="todo-add">
-                <input type="text" placeholder="Add Your Task"  className="todo-input" ref={inputRef}/>
-                <button className="todo-add-btn" onClick={add} >ADD</button>
-            </div>
-            <div className="todo-list">
+            <div className="todoitems">
                 {
-                    todos.map((item, index) => {
-                        return <Todoitems key={index} no ={item.id} text ={item.text} display = {item.display} setTodos = {setTodos}/>
+                    todos.map((todo,index) => {
+                        return <TodoItems key={index} no = {todo.no} text = {todo.text} display = {todo.display} setTodo = {setTodos}/>
                     })
                 }
             </div>

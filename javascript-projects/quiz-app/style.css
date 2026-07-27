@@ -41,7 +41,7 @@ h2{
     flex-direction: column;
     margin-top: 20px;
 }
-p{
+button{
     margin-top: 5px;
 }
 .btn-container{
@@ -52,7 +52,7 @@ p{
 
 }
 
-button{
+#next-btn{
     background-color: black;
     color: white;
     font-weight: bold;
@@ -63,10 +63,21 @@ button{
     cursor: pointer;
     font-size: 16px;     
 }
-button:hover{
+.play-again-button{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 16px; 
+}
+#next-btn:hover{
     background-color: rgb(33, 33, 33);
 }
-p{
+button{
     font-size: 20px;
     margin-top: 10px;
     cursor: pointer;
@@ -74,4 +85,17 @@ p{
     width: 100%;
     padding: 5px;
     text-align: center;
+}
+h4{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 10px;
+}
+.correct{
+    background-color: green;
+    color: black;
+}
+.wrong{
+    background-color:red;
+    color: black;
 }
