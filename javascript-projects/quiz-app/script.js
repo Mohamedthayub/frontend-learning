@@ -1,68 +1,69 @@
 import quizData from "./quizData.js";
 const quizApp = document.querySelector(".quiz-app");
-const quizQuestion = document.querySelector('.quiz-question');
+const quizQuestion = document.querySelector(".quiz-question");
 const quizOptionContainer = document.querySelector(".quiz-option-container");
-const nextBtn = document.getElementById("next-btn");
-const showUserScore = document.querySelector("#user-score");
+const nextButton = document.querySelector("#next-btn");
 const playAgainButton = document.querySelector(".play-again-button");
+
 
 let index = 0;
 let userScore = 0;
-showUserScore.style.display = "none";
 playAgainButton.style.display = "none";
-
-function showScore(score){
-    quizApp.innerHTML = "";
-    nextBtn.style.display = "none";
-    showUserScore.style.display = "block";
-    showUserScore.textContent = `your score is ${score}`;
-    
-}
-
-function createQuiz(){    
+function createQuiz(){
+    nextButton.disabled = true;
     quizOptionContainer.innerHTML = "";
-    quizQuestion.textContent = ` ${quizData[index].id}. ${quizData[index].question}`
-    quizData[index].options.forEach((option) => {
-        let optionText = document.createElement('button');
-        optionText.classList.add("option");
-        optionText.textContent = option;
-        optionText.addEventListener("click",(e) => {
-            if(e.target.textContent ===  quizData[index].answer){
+    quizQuestion.textContent =`${quizData[index].id}. ${quizData[index].question}` ;
+    quizData[index].options.forEach((optionText) => {
+        let button = document.createElement("button");
+        button.classList.add("btn");
+        button.textContent = optionText;
+        quizOptionContainer.appendChild(button);
+
+        button.addEventListener("click",(e) => {
+            if(e.target.textContent ==  quizData[index].answer){
                 userScore++;
-                optionText.classList.add("correct");
-                optionText.disabled = true;
-                console.log(userScore);
+                button.classList.add("correct");
+                let buttons = document.querySelectorAll(".btn");
+                buttons.forEach((btn) => {
+                    btn.disabled = true;
+                })
             }
             else{
-                optionText.classList.add('wrong');
-            }
-        })
-        quizOptionContainer.appendChild(optionText);
+                button.classList.add('wrong');
+                let buttons = document.querySelectorAll(".btn");
+                buttons.forEach((btn) => {
+                    btn.disabled = true;
+                })
+            } 
+            nextButton.disabled = false;
 
-    });
+        });
+    })
+
 }
 
-nextBtn.addEventListener("click", () => {
+nextButton.addEventListener("click",() =>{
     index++;
-    if(index >= quizData.length){
-        // index = 0;
-        quizApp.innerHTML = "";
-        playAgainButton.style.display = "block"
-        showScore(userScore);
-        index = 0;
-    
-    }
     if(index < quizData.length){
         createQuiz();
-    } 
-});
+    }
+    else{
+        index = 0;
+        quizOptionContainer.innerHTML = "";
+        nextButton.style.display ="none";
+        playAgainButton.style.display= "block";
+        showScore(userScore);
+    }
+})
+
+function showScore(score){
+    quizQuestion.textContent = `Your Score is ${score}`;
+}
 
 playAgainButton.addEventListener("click",() => {
     playAgainButton.style.display = "none";
-    index = 0;
-    userScore = 0;
-    showUserScore.style.display = "none";
     createQuiz();
-
 })
-createQuiz();
+window.addEventListener("DOMContentLoaded",() => {
+    createQuiz();
+})

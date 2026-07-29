@@ -48,8 +48,8 @@ button{
     margin-top: 20px;
     display: flex;
     justify-content: center;
-    
-
+    flex-direction: column;
+    align-items: center;
 }
 
 #next-btn{
@@ -98,4 +98,7 @@ h4{
 .wrong{
     background-color:red;
     color: black;
+}
+.quiz-question{
+    margin-top: 50px;
 }
