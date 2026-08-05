@@ -1,17 +1,10 @@
-import { useState } from "react";
-
+import useInput from "./useInput";
 const App = () => {
-  const [toggle,setToggle] = useState(false);
-  const set = () => {
-    setToggle(!toggle)
-  }
-  
+  const {input,clearInput,handleInput} = useInput("");
   return (
     <div>
-      {
-        toggle && <h1>This is Toggle</h1>
-      }
-      <button onClick={set}>Set</button>
+      <input type="text" value={input} onChange={(e) =>handleInput(e.target.value) }/>  
+      <button onClick={clearInput}>clear</button> 
     </div>
   )
 }
