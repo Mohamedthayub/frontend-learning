@@ -54,7 +54,7 @@ nextButton.addEventListener("click",() =>{
         playAgainButton.style.display= "block";
         showScore(userScore);
     }
-})
+});
 
 function showScore(score){
     quizQuestion.textContent = `Your Score is ${score}`;
