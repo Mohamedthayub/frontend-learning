@@ -1,15 +1,7 @@
 import {useState} from "react";
+import useCount from "./useCount";
 const App = () => {
-  const [count,setCount] = useState(0);
-  const increase = () => {
-    setCount(prev => prev + 1);
-  }
-  const decrease = () => {
-    setCount(prev => prev - 1);
-  }
-  const reset = () => {
-    setCount(0)
-  }
+  const {count,increase,reset,decrease} = useCount();
   return (
     <div className= "App">
       <h1>Counter App</h1>
