@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lexend Deca", sans-serif;
+
+}
+main{
+    position: absolute;
+    display: flex;
+    top: 250px;
+    left: 500px;
+}
+
+p{
+    font-size: 15px;
+    width: 200px;
+    color: hsla(0, 0%, 100%, 0.75);
+    word-spacing: 2px;
+}
+h1{
+    font-weight: 500;
+    font-size:2.1rem;
+    letter-spacing: 0px;
+    color:  hsl(0, 0%, 95%);
+    font-family: "Big Shoulders", sans-serif;
+}
+
+
+
+.sedan-card{
+    width: 280px;
+    height: 400px;
+    background-color: hsl(31,77%,52%);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.suv-card{
+    width: 280px;
+    height: 400px;
+    background-color:hsl(184, 100%, 22%) ;
+    padding: 20px;
+}
+
+.luxary-card{
+    width: 280px;
+    height: 400px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.sedan-card-button{
+    border:2px solid white;
+    background-color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color:hsl(31,77%,52%);
+    margin-top: 60px;
+    font-weight:500;
+    font-family: "Lexend Deca", sans-serif;
+
+
+}
+.suv-card-button{
+    border:2px solid white;
+    background-color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color:hsl(184, 100%, 22%) ;
+    margin-top: 60px;
+    font-weight:500;
+    font-family: "Lexend Deca", sans-serif;
+
+}
+.luxary-card-button{
+    border:2px solid white;
+    background-color: white;
+    border-radius: 25px;
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    color: hsl(179, 100%, 13%);
+    margin-top: 45px;
+    font-weight:500;
+    font-family: "Lexend Deca", sans-serif;
+}
+h1,p{
+    margin-top: 20px;
+}
+
+img,h1,p,button{
+    margin-left: 30px;
+}
+
+
+@media (max-width: 768px) {
+
+    main {
+        position: static;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .sedan-card,
+    .suv-card,
+    .luxary-card {
+        width: 100%;
+        max-width: 350px;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    .sedan-card {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .luxary-card {
+        border-radius: 0 0 10px 10px;
+    }
+
+    img,
+    h1,
+    p,
+    button {
+        margin-left: 30px;
+    }
+
+    p {
+        width: auto;
+        max-width: 250px;
+    }
+}
