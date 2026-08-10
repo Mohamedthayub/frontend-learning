@@ -7,57 +7,153 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Weather app</title>
-
+  <link rel="stylesheet" href="style.css">
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
 <body>
-
-  Units
-
-  Switch to Imperial/Metric
-
-  Temperature
-
-  Celsius (°C)
-  Fahrenheit (°F)
-
-  Wind Speed
-
-  km/h
-  mph
-
-  Precipitation
-
-  Millimeters (mm)
-  Inches (in)
-
-  How's the sky looking today?
-
-  Search for a city, e.g., New York
-  Search
-
-  Feels like
-  <!-- Insert temperature here -->
-
-  Humidity
-  <!-- Insert humidity here -->
-
-  Wind
-  <!-- Insert wind here -->   
-  
-  Precipitation
-  <!-- Insert precipitation here -->
-
-  Daily forecast
-  <!-- Insert daily forecast for the next 7 days here -->
-
-  Hourly forecast
-  <!-- Insert hourly forecast for the selected day here -->
-
+  <header>
+    <div class="logo-container">
+      <img src="assets/images/logo.svg" alt="" >
+    </div>
+    <div class="logo-container2">
+      <img src="assets/images/icon-units.svg" alt="" class="setting-logo">
+      <p class="units">Units</p>
+      <img src="assets/images/icon-dropdown.svg" alt="" class="dropdown-logo"> 
+    </div>
+  </header>
+  <main>
+    <h2 class="tittle">How's the sky looking today?</h2>
+    <div class="input-container">
+      <input type="text" placeholder="Search for a place..." src="assets/images/icon-search.svg" width="20" height="20" class="input-box" >
+      <button class="search-btn">Search</button>
+    </div>
+  </main>
+  <div class="container">
+    <div class="container1">
+       <div class="child-container1">
+      <div class="img-container">
+        <img src="assets/images/bg-today-large.svg" alt="" class="today-image">
+      </div>
+      <div class="text-container">
+        <div class="city-name">
+            <h2>Berlin,Germany</h2>
+            <p class="day">Tuesday Aug 5, 2025</p>
+        </div>
+        <div class="img-container2">
+          <img src="assets/images/icon-sunny.webp" alt="" class="sun-image">
+          <h1 class="degree">68°</h1>
+        </div>
+      </div>
+    </div>
+    <div class="child-container2">
+      <div class="small-container">
+        <div class="cont1">
+          <p class="feels-like-text">Feels Like</p>
+          <p class="feels-like-num">64°</p>
+        </div>
+        <div class="cont2">
+          <p class="humidity-text">Humidity</p>
+          <p class="humidity-num">46%</p>
+        </div>
+        <div class="cont3">
+          <p class="wind-text">Wind</p>
+          <p class="wind-num">9 mph</p>
+        </div>
+        <div class="cont4">
+          <p class="precipitation-text">Precipitation</p>
+          <p class="precipitation-number">0 in</p>
+        </div>
+      </div>
+    </div>
+    <div class="child-container3">
+      <h3>Daily forecast</h3>
+      <div class="days">
+        <div class="day-container">
+          <p class="day">Tue</p>
+          <img src="assets/images/icon-rain.webp" alt="" class="whether-logo">
+          <div class="degree-container">
+            <p>68°</p>
+            <p>57°</p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="day">Wed</p>
+          <img src="assets/images/icon-drizzle.webp" alt="" class="whether-logo">
+          <div class="degree-container">
+            <p>70°</p>
+            <p>59°</p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="day">Thu</p>
+          <img src="assets/images/icon-sunny.webp" alt="" class="whether-logo">
+          <div class="degree-container">
+            <p>75°</p>
+            <p>57°</p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="day">Fri</p>
+          <img src="assets/images/icon-partly-cloudy.webp" alt="" class="whether-logo">
+          <div class="degree-container">
+            <p>77°</p>
+            <p>55°</p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="day">Sat</p>
+          <img src="assets/images/icon-storm.webp" alt="" class="whether-logo">
+          <div class="degree-container">
+            <p>70°</p>
+            <p>59°</p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="day">Sun</p>
+          <img src="assets/images/icon-snow.webp" alt="" class="whether-logo">
+          <div class="degree-container">
+            <p>77°</p>
+            <p>61°</p>
+          </div>
+        </div>
+        <div class="day-container">
+          <p class="day">Mon</p>
+          <img src="assets/images/icon-fog.webp" alt="" class="whether-logo">
+          <div class="degree-container">
+            <p>75°</p>
+            <p>59°</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <section>
+      <div>
+        <h3>Hourly forcast</h3>
+        <div>
+          <p class="hourly-day">Tuesday</p>
+          <img src="assets/images/icon-dropdown.svg" alt="" class="dropdown-logo"> 
+        </div>
+      </div>
+      <div class="times">
+        <div class="time">
+          <div>
+            <img src="" alt="">
+            <p>3 PM</p>
+          </div>
+          <p>68°</p>
+        </div>
+        <div class="time"></div>
+        <div class="time"></div>
+        <div class="time"></div>
+        <div class="time"></div>
+        <div class="time"></div>
+        <div class="time"></div>
+        <div class="time"></div>
+      </div>
+    </section>
+  </div>
 
 </body>
 </html>

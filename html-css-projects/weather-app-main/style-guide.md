@@ -36,7 +36,7 @@ The designs were created to the following widths:
 
 - Font size: 18px
 
-### Font
+### `Font`
 
 - Family: [DM Sans](https://fonts.google.com/specimen/DM+Sans)
 - Weights: 300, 500, 600, 600i, 700
