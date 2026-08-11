@@ -180,7 +180,7 @@ input:focus{
     margin: 10px;
     border-radius: 10px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: start;
     flex-direction: column;
     padding: 15px;
@@ -276,7 +276,47 @@ h3{
 
 section{
     color: white;
-    margin-right: 350px;
-
+    margin-right: 200px;
+    margin-top: 20px;
+    background-color:  hsl(243, 27%, 20%);
+    height: 610px;
+    padding-block: 15px;
+    border-radius: 10px;
 }
 
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    height: 60px;
+    color:white;
+    width: 280px;
+    padding: 10px;
+    border-radius: 7px;
+    background-color: hsl(243, 23%, 24%);
+}
+
+.time-logo{
+    width:50px;
+    height: 50px;
+    margin-top: 2px;
+}
+.time  .time-container{
+    display: flex;
+}
+.exact-time{
+    margin-top: 18px;
+}
+
+.first-section-container{
+    display: flex;
+    justify-content: space-around;
+}
+.hourly-day-container{
+    display: flex;
+    background-color: hsl(243, 23%, 24%);
+    padding: 5px;
+    border-radius: 5px;
+}
