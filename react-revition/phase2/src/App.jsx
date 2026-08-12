@@ -1,11 +1,11 @@
-import ChildComponent from "./components/child";
+import ParentComponent from "./components/parent";
+// import ChildComponent from "./components/child";
+// import GrandChild from "./components/grandChild";
 const App = () => {
-  const data = "this data come from parent"
-  return (
-    <div className="app">
-      <h1>This is Parent Component</h1>
-      <ChildComponent data = {data}/>
-    </div>
-  )
+    return (
+        <div>
+            <ParentComponent/>
+        </div>
+    )
 }
 export default App;
