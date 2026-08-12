@@ -1,10 +1,11 @@
-import ParentComponent from "./components/parent";
-// import ChildComponent from "./components/child";
-// import GrandChild from "./components/grandChild";
+import Navbar from "./Navbar";
+import ThemeProvider from "../ThemeProvider";
 const App = () => {
     return (
-        <div>
-            <ParentComponent/>
+        <div className="App">
+            <ThemeProvider>
+                <Navbar/>
+            </ThemeProvider>
         </div>
     )
 }
