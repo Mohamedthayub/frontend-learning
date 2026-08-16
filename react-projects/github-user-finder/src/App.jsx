@@ -1,8 +1,8 @@
-import Card from "./components/Card";
+import SearcInput from "./components/UserInput";
 const App = () => {
   return (
     <div className="App">
-      <Card/>
+      <SearcInput/>
     </div>
   )
 }

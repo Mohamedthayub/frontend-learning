@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
   margin: 0px;
   padding: 0px;
@@ -7,7 +6,7 @@
 }
 
 body{
-    font-family: "Figtree", sans-serif;
+  font-family: "Roboto Mono", monospace;
     background-color:white;
     color:black;
 }
@@ -15,7 +14,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
 }
 .input-container{
     background-color: #1F2A48;
@@ -46,7 +45,7 @@ button{
   margin-left: 10px;
   font-weight: bold;
 }
-.card{
+.profile-card{
     background-color: #1F2A48;
     margin-top: 20px;
     color: white;
@@ -118,4 +117,16 @@ button{
  .third-text{
   margin-left: 10px;
   font-weight: 600;
+}
+
+.error-msg{
+  color: red;
+  font-weight: 500;
+}
+.shimmer{
+  background-color: #1F2A48;
+  height: 400px;
+  width: 700px;
+  margin-top: 20px;
+  border-radius: 10px;
 }
