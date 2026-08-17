@@ -36,16 +36,16 @@ const SearchInput = () => {
         fetchUser();
     }
     return (
-        <form className="container" onSubmit={handleSubmit}>
-            <div className="input-container">
-                <input type="text"  value= {username} onChange={(e) => setUsername(e.target.value)} placeholder="Search Github Username"/>
-                <button type="submit" disabled={loading}>{loading ? "Seaching ...": "Search"}</button>  
+        <form className="bg-zinc-800  w-1/3 h-18 rounded-lg px-2 py-2" onSubmit={handleSubmit}>
+            <div className="flex justify-between">
+                <input type="text"  value= {username} onChange={(e) => setUsername(e.target.value)} placeholder="Search Github Username" className="outline-0 font-semibold text-lg text-white"/>
+                <button type="submit" disabled={loading} className="bg-zinc-700 text-white font-bold h-14 w-25 rounded-lg hover:bg-zinc-800">{loading ? "Seaching ...": "Search"}</button>  
             </div>
             {
                 loading && <Shimmer/>
             }
             {error && (
-            <p className="error-msg">{error}</p>
+            <p className="">{error}</p>
             )}
 
             {!loading && userData && (

@@ -1,6 +1,6 @@
 const Shimmer = () => {
     return (
-        <div className="shimmer">
+        <div className="bg-green-400">
         </div>
     )
 }
