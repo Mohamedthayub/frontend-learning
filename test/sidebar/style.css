@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+      font-family: "Roboto Mono", monospace;
+
+}
+
+header{
+    background-color: cornflowerblue;
+    color:black;
+    font-weight: bold;
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    margin: 10px;
+}
+nav{
+    display: flex;
+    padding: 10px;
+}
+p{
+    margin-right: 10px;
+    cursor: pointer;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+section{
+    background-color:cadetblue;
+}
+.sidebar{
+    background-color:darkgray;
+    height:700px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 10px;
+    /* display: none; */
+}
+footer{
+    background-color: tomato;
+    display: flex;
+    justify-content: end;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    height: 60px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.text-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.box{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidebar-image{
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.sidebar-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.sidebar-item{
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    width:100%;
+    height: 35px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}

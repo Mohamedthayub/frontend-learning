@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:bisque;
+    font-family: "Roboto Mono", monospace;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 300px auto auto;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding: 10px;
+}
+
+p{
+    background-color: cornflowerblue;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    
+}
