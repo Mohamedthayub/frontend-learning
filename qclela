@@ -1,0 +1,323 @@
+[33mcommit 7e83a811a05163a7682ef863e857a8ebcbf3e6c0[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Tue Aug 18 15:43:10 2026 +0000
+
+    basic web template completed
+
+[33mcommit 2a648c23e00fc39da0cdd9971130d9bcce3ea6f0[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Mon Aug 17 17:47:17 2026 +0000
+
+    refactor: migrate GitHub profile finder from CSS to Tailwind CSS
+
+[33mcommit c904e24299ecb2aa872230723c3636e11f781388[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sun Aug 16 22:14:22 2026 +0000
+
+    responsive practice done in tailwind css
+
+[33mcommit f599b8a1f0dcf8bbef0ae6df18bb8c93297b0f40[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sun Aug 16 18:12:31 2026 +0000
+
+    refactor: improve GitHub user finder with loading and error states
+
+[33mcommit e25340720bde54ba49849b54825c48daabe0d7da[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Aug 14 19:05:35 2026 +0000
+
+    refactor: remove main blog preview card
+
+[33mcommit 2db47af6b8bc12c2eb51e3ad60dba46762a1d129[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Aug 14 19:02:32 2026 +0000
+
+    feat:completed github user finder
+
+[33mcommit 769f7d44ec08d3361cf0db505f23a45f08dc17bb[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Aug 14 18:31:22 2026 +0000
+
+    style : completed in github-user-finder
+
+[33mcommit c0c898ff5b00a802802135c8965dfbd1e381a9f5[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Aug 13 18:34:10 2026 +0000
+
+    feat: initialized github user finder
+
+[33mcommit c84b21a5f5b331798823be24e23924bf7da83bf8[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Aug 12 18:52:33 2026 +0000
+
+    blog preview card  completed in tailwind css project
+
+[33mcommit 1bea86dd89efd2cade62f4b3cfba543f860d358b[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Aug 12 17:38:14 2026 +0000
+
+    theme switcher done with react context api
+
+[33mcommit c966331b9cf46fcda9e6a58f382e8172b8811c7d[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Aug 12 15:37:00 2026 +0000
+
+    context api example done
+
+[33mcommit 19e04b5dfb340b5f29ea35ce32eb180c1d45c27b[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Tue Aug 11 18:36:46 2026 +0000
+
+    completed lifting state up done
+
+[33mcommit a09605dbfa0dd1fadc7e2e070fe65a26c7999636[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Tue Aug 11 11:12:38 2026 +0000
+
+    style: complete desktop app design
+
+[33mcommit cc584e70cddcd9473511e3aa8d5a9d37fa75e0f8[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Mon Aug 10 18:31:49 2026 +0000
+
+    feat : added whether app main in html css
+
+[33mcommit 454be5805ac8c9d052cf61bc5876ff4b2931d0a1[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sun Aug 9 18:48:04 2026 +0000
+
+    test: whether app test template done
+
+[33mcommit abb182bf4d570f58fa44d183084e518b6822abd2[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sun Aug 9 16:11:03 2026 +0000
+
+    feat:added link in 3 colomn preview card component
+
+[33mcommit f650ccda70e8fc0cc12a697c03b4930a9bbf8e71[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sun Aug 9 15:57:33 2026 +0000
+
+    feat:added 3 column preview  card component
+
+[33mcommit c92bb918c768fa6675140afa2d80e2ed4d6f4713[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Aug 6 19:00:11 2026 +0000
+
+    completed position exercises
+
+[33mcommit ccbe1304001e61cecda69f1a300abb0c01d859de[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Aug 6 18:13:38 2026 +0000
+
+    revised position concept
+
+[33mcommit f02779f9a2757045f3779a3d826ce6643824c1f2[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Aug 6 14:23:08 2026 +0000
+
+    revised flexbox in html css
+
+[33mcommit 55739a6d9211d59e9b60b8233367ede7a61dc899[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Aug 5 18:23:07 2026 +0000
+
+    completed two custom hook
+
+[33mcommit 89cd744ffac433b8f4a5823f2fb0ff6c8d87133f[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Aug 5 17:45:53 2026 +0000
+
+    react phase 1 revition done
+
+[33mcommit a0f840433780acbd8970f3af4651775b5ebf06c1[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jul 29 14:04:01 2026 +0000
+
+    feat: add quiz application using JavaScript
+
+[33mcommit 47b747913ce0f6184a17a3d79b4cf87a760a3771[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Mon Jul 27 23:24:59 2026 +0000
+
+    completed :todo app in react projects
+
+[33mcommit 269bc3bb794685a747a5201c6a3acd3520a5dcb9[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jul 24 19:03:50 2026 +0000
+
+    style: complete quiz app UI
+
+[33mcommit d30231dd4da763699467e18be1beb80a97e33ec8[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Jul 23 18:49:01 2026 +0000
+
+    i am working in javascript project quiz app
+
+[33mcommit 40dabcf70a8f74d524e0a8f787d870e33293d065[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Jul 23 17:37:09 2026 +0000
+
+    feat: add loading state, error handling, and disabled button to advice generator
+
+[33mcommit 5a998e1b717f1f5ca8eb806f6bbc14f22817821a[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Tue Jul 21 17:52:03 2026 +0000
+
+    feat: completed advice generator app
+
+[33mcommit 132c9c4a5ccf6dedd1c4b20210ca384132314998[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Mon Jul 20 22:14:55 2026 +0000
+
+    i am working in advice generator app in react
+
+[33mcommit 2fa1bddd3e9e37e3182a7c3aef352cfe7ee0a77b[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Mon Jul 20 21:27:55 2026 +0000
+
+    completed: timer app done in javascript project
+
+[33mcommit ae6a78000f98111aa950fea80b7827363d010ee0[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Mon Jul 20 16:08:56 2026 +0000
+
+    feat: added show hide password feature in form validation
+
+[33mcommit f10f284a1498e200ce0b64e3ae98b9c6e0b824b3[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sat Jul 18 18:50:03 2026 +0000
+
+    feat: completed qr-code component in html css
+
+[33mcommit 7cde2c204d7829f62b57de188595c9fcbdfcf32c[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sat Jul 18 18:31:49 2026 +0000
+
+    Add sign-up form with input validation and error handling
+
+[33mcommit 6cbd14d50b730f93419fac8ccc7228640f714148[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jul 17 23:15:27 2026 +0000
+
+    feat:sign up form initiated
+
+[33mcommit 2e23d4e2fdf81f130f0f28a9337f5a1d4685aaa4[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jul 15 14:29:50 2026 +0000
+
+    completed digital clock
+
+[33mcommit 5b33e7d280a037ce5805216079f6dfad74b14ba5[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jul 15 12:12:35 2026 +0000
+
+    completed theme switcher project
+
+[33mcommit 3c4aed38b6635e831c001c70ec0507545fa705b7[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jul 10 10:49:57 2026 +0000
+
+    completed digital clock
+
+[33mcommit 7238f7f2557a89206ee313944a22498b193eca94[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Jul 9 22:26:39 2026 +0000
+
+    completed sign up form
+
+[33mcommit d57d3f66690f32dca07ad21a1e3780b0f3789868[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Thu Jul 9 18:58:57 2026 +0000
+
+    completed signup form styling
+
+[33mcommit 3ec9d53207269e081406969d078ea79d3b367bee[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sat Jul 4 22:41:31 2026 +0000
+
+    javascript theme switcher project done
+
+[33mcommit cb601f821ae7aa7070a7ff6c69b35181d5deb382[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sat Jul 4 21:52:49 2026 +0000
+
+    i have done command line digital clock
+
+[33mcommit 34733ec84bd859b9cf02c575465bfc3df56acaee[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jul 1 18:45:50 2026 +0000
+
+    feat: i am working on digital clock project
+
+[33mcommit 90762b06ad49b7a547992b3578032f514767750b[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jul 1 17:28:02 2026 +0000
+
+    counter app done
+
+[33mcommit 9aa4b990a4cf041512cae24e5c436db4a7c7b5dc[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jul 1 16:04:16 2026 +0000
+
+    react basics done
+
+[33mcommit b14be0bff7fd72b0acac7ed9d85cb961ef0759af[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jul 1 14:55:17 2026 +0000
+
+    feat:added todo app with add,delete,localstorage,darkandlight theme
+
+[33mcommit df418696aa6fb475f1adcb1244c0aa53e953de30[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jun 19 18:52:15 2026 +0000
+
+    feat: add save todo item in localstorage
+
+[33mcommit 51ba87d4c02667bc078fe131dc38cb7948bf49fd[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Tue Jun 16 00:08:23 2026 +0000
+
+    feat: added theme button text changing functionality
+
+[33mcommit 28163def43945569cd5375e576e7cfaced88bb7c[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sat Jun 13 17:37:49 2026 +0000
+
+    feat :added  count todo and dark and light theme functionality
+
+[33mcommit 08e6326a20c73ef72f06bc4c201dff0962c3163e[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Sat Jun 13 00:34:39 2026 +0000
+
+    feat: todo app finished with basic features
+
+[33mcommit 7e91f9326e1df4e0417ddf1ca48ec90f0d1e484d[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jun 12 17:48:04 2026 +0000
+
+    javascript basics done
+
+[33mcommit 6c520721e8831f368e928d8e02871282b7989173[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jun 12 16:17:08 2026 +0000
+
+    find some every  functions done
+
+[33mcommit add1a66bcbf27b04d86e552583d0b8415447d37c[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jun 12 15:39:31 2026 +0000
+
+    the map-filter-reduce function challange done
+
+[33mcommit 33afc4c3dba64e5e4d3f535837079f6754b86799[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Fri Jun 12 15:10:30 2026 +0000
+
+    javascript done till map-filter-reduce function
+
+[33mcommit 266838cac3a8b9375d1ffe305760e223f021ccb3[m
+Author: buyath <buyaththayub@gmail.com>
+Date:   Wed Jun 10 21:39:35 2026 +0000
+
+    initial commit

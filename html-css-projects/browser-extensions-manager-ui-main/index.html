@@ -7,74 +7,211 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Browser extensions manager UI</title>
+  <link rel="stylesheet" href="style.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 0.6875rem; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Extensions List
-
-  All
-  Active
-  Inactive
-
   <!-- If you plan to use the JSON file to populate the data dynamically, you can delete the content below -->
-
-  DevLens
-  Quickly inspect page layouts and visualize element boundaries.
-  Remove
-
-  StyleSpy
-  Instantly analyze and copy CSS from any webpage element.
-  Remove
-
-  SpeedBoost
-  Optimizes browser resource usage to accelerate page loading.
-  Remove
-
-  JSONWizard
-  Formats, validates, and prettifies JSON responses in-browser.
-  Remove
-
-  TabMaster Pro
-  Organizes browser tabs into groups and sessions.
-  Remove
-
-  ViewportBuddy
-  Simulates various screen resolutions directly within the browser.
-  Remove
-
-  Markup Notes
-  Enables annotation and notes directly onto webpages for collaborative debugging.
-  Remove
-
-  GridGuides
-  Overlay customizable grids and alignment guides on any webpage.
-  Remove
-
-  Palette Picker
-  Instantly extracts color palettes from any webpage.
-  Remove
-
-  LinkChecker
-  Scans and highlights broken links on any page.
-  Remove
-
-  DOM Snapshot
-  Capture and export DOM structures quickly.
-  Remove
-
-  ConsolePlus
-  Enhanced developer console with advanced filtering and logging.
-  Remove
-
-  <footer class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </footer>
+   <div class="header">
+    <header>
+        <img src="./assets/images/logo.svg" alt="nav-logo" class="navbar-logo">
+        <img src="./assets/images/icon-moon.svg" alt="sun-icon">
+   </header>
+   </div>
+   <div class="parent-extention-container">
+      <div class="extention-container">
+    <h1>Extention List</h1>
+    <div class="three-btn-container">
+      <button class="btn">All</button>
+      <button class="btn">Active</button>
+      <button class="btn">InActive</button>
+    </div>
+   </div>
+   </div>
+   <div class="item-container">
+    <main>
+    <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-devlens.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+          <h2>DevLens</h2>
+          <p>Quickly inspect page layouts and visualize element boundaries.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-style-spy.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+          <h2>DevLens</h2>
+          <p>Quickly inspect page layouts and visualize element boundaries.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-speed-boost.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>StyleSpy</h2>
+            <p>Instantly analyze and copy CSS from any webpage element.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-json-wizard.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>SpeedBoost</h2>
+            <p>Optimizes browser resource usage to accelerate page loading.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-tab-master-pro.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>JSONWizard</h2>
+            <p>Formats, validates, and prettifies JSON responses in-browser.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-viewport-buddy.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>TabMaster Pro</h2>
+            <p>Organizes browser tabs into groups and sessions.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-markup-notes.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>ViewportBuddy</h2>
+            <p>Simulates various screen resolutions directly within the browser.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-grid-guides.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>Markup Notes</h2>
+            <p>Enables annotation and notes directly onto webpages for collaborative debugging.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-palette-picker.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>GridGuides</h2>
+            <p>Overlay customizable grids and alignment guides on any webpage.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-link-checker.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+            <h2>Palette Picker</h2>
+            <p>Instantly extracts color palettes from any webpage.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-dom-snapshot.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+          <h2>LinkChecker</h2>
+          <p>Scans and highlights broken links on any page.</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+     <div class="item">
+      <div class="first-container">
+        <div class="img-container">
+          <img src="./assets/images/logo-console-plus.svg" alt="devlens-icon">
+        </div>
+        <div class="text-container">
+          <h2>DOM Snapshot</h2>
+          <p>Capture and export DOM structures quickly..</p>
+        </div>
+      </div>
+      <div class="btn-container">
+        <button class="remove-btn">Remove</button>
+        <img src="assets/images/toggle.png" alt="">
+      </div>
+    </div>
+   </main>
+   </div>
 </body>
 </html>

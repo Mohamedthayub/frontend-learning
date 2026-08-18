@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: hsl(217, 61%, 90%);
+}
+.navbar-logo{
+    color: white;
+}
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.parent-extention-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.extention-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1500px;
+}
+.three-btn-container{
+    margin-top: 5px;
+}
+.btn{
+    background-color: white;
+    border: none;
+    font-weight:550;
+    padding: 10px;
+    width: 80px;
+    margin-right: 10px;
+    border-radius: 35px;
+    font-size: 15px;
+    color: hsl(226, 11%, 37%);
+
+}
+.btn:hover{
+    background-color:hsl(3, 86%, 64%) ;
+    color: white;
+    cursor: pointer;
+}
+.item{
+    background-color: white;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 1500px;
+    gap:30px;
+    margin-top: 20px;
+}
+.item-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    border-radius: 15px;
+    padding: 20px;
+}
+.first-container{
+    display: flex;
+}
+.text-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+p{
+    margin-top: 5px;
+    color: hsl(226, 11%, 37%);
+    font-size: 15px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.remove-btn{
+    background: none;
+    width:80px;
+    height: 35px;
+    margin-top: 7px;
+    border-radius: 20px;
+    color:hsl(227, 75%, 14%);
+    font-weight: 600;
+    border: 1px solid rgb(51, 50, 50);
+
+}
+.remove-btn:hover{
+    background-color:hsl(3, 77%, 44%);
+    border: none;
+    cursor: pointer;
+    color: white;
+}
