@@ -3,29 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/output.css">
   <title>Frontend Mentor Blogr</title>
 </head>
+
 <body>
-  <header>
-    <div>
-       <img src="./images/logo.svg" alt="logo" class="nav-logo">
-    <nav>
-      <p>Product</p>
-      <p>Company</p>
-      <p>Connect</p>
-    </nav>
-    <div>
-      <button>Login</button>
-      <button>Sign Up</button>
+  <header class="bg-[hsl(355,100%,74%)] md:h-[500px] md:rounded-bl-[100px]">
+    <div class="md:flex md:justify-around md:p-5">
+      <div class="md:flex md:mt-6">
+        <img src="./images/logo.svg" alt="logo" class="md:h-10 md:mt-2 ">
+      <nav class="text-white md:flex md:justify-around md:mt-4 md:ml-10 ">
+        <p class="md:font-semibold">Product</p>
+        <p class="md:ml-8 md:font-semibold">Company</p>
+        <p class="md:ml-8 md:font-semibold">Connect</p>
+      </nav>
+      </div>
+    <div class="md:flex md:mt-8">
+      <button class="text-white ">Login</button>
+      <button class="md:ml-6 bg-white md:w-24 md:h-10 md:rounded-3xl md:text-[hsl(353,100%,62%)] md:text-sm font-bold">Sign Up</button>
     </div>
     </div>
-    <div>
-      <h1>A modern publishing platform</h1>
-      <p>Grow your audience and build your online brand</p>
-      <div>
-        <button>Start for Free</button>
-        <button>Learn More</button>
+    <div class="md:flex md:justify-center md:items-center md:mt-20 md:flex-col">
+      <h1 class="md:text-5xl md:text-white md:font-semibold">A modern publishing platform</h1>
+      <p class="md:mt-6 md:text-white text-xl">Grow your audience and build your online brand</p>
+      <div class="md:mt-6 md:flex">
+        <button class="bg-white text-[hsl(353,100%,62%)] md:w-34 md:p-3 md:rounded-4xl md:font-semibold">Start for Free</button>
+        <button class="md:ml-8 md:border-2 border-white md:w-34 md:p-3 md:rounded-4xl md:font-bold md:text-white">Learn More</button>
       </div>
     </div>
   </header>
