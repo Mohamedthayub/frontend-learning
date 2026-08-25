@@ -9,6 +9,9 @@ body{
     font-family: "Noto Sans", sans-serif;
 
 }
+.navbar-text{
+  margin-top: 5px;
+}
 .navbar{
   display: flex;
   justify-content: space-around;
@@ -53,4 +56,29 @@ a{
 }
 a.active{
   color: white;
+}
+.btn-container{
+  display: flex;
+  justify-content: center;
+
+}
+.info-button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+.form-button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+  margin-left: 50px;
+  padding: 10px;
+
 }
