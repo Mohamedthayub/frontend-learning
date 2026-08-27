@@ -1,0 +1,74 @@
+{
+    "jobs":[
+  {
+    "id": 1,
+    "title": "React Developer",
+    "salary": 50000,
+    "location": "UK",
+    "description": "We are looking for a React Developer to build modern, responsive, and user-friendly web applications using React, JavaScript, and related technologies."
+  },
+  {
+    "id": 2,
+    "title": "Frontend Developer",
+    "salary": 45000,
+    "location": "USA",
+    "description": "Join our frontend team to create responsive and interactive web interfaces using HTML, CSS, JavaScript, and modern frontend frameworks."
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "salary": 55000,
+    "location": "Canada",
+    "description": "We are seeking a Backend Developer to design and develop reliable APIs, server-side applications, and database solutions for our web platforms."
+  },
+  {
+    "id": 4,
+    "title": "Full Stack Developer",
+    "salary": 60000,
+    "location": "Germany",
+    "description": "Work across both frontend and backend development to build complete web applications using modern technologies and scalable software architecture."
+  },
+  {
+    "id": 5,
+    "title": "Node.js Developer",
+    "salary": 52000,
+    "location": "Australia",
+    "description": "Develop fast and scalable backend services using Node.js, Express, REST APIs, and databases while working closely with frontend developers."
+  },
+  {
+    "id": 6,
+    "title": "Software Engineer",
+    "salary": 65000,
+    "location": "USA",
+    "description": "Design, develop, test, and maintain high-quality software applications while collaborating with engineers and product teams to solve complex problems."
+  },
+  {
+    "id": 7,
+    "title": "JavaScript Developer",
+    "salary": 48000,
+    "location": "France",
+    "description": "Build interactive web applications using JavaScript and modern development tools while focusing on clean, maintainable, and efficient code."
+  },
+  {
+    "id": 8,
+    "title": "UI Developer",
+    "salary": 42000,
+    "location": "India",
+    "description": "Create attractive, accessible, and responsive user interfaces while working with designers and developers to deliver a great user experience."
+  },
+  {
+    "id": 9,
+    "title": "MERN Stack Developer",
+    "salary": 58000,
+    "location": "Netherlands",
+    "description": "Develop full-stack web applications using MongoDB, Express.js, React, and Node.js while building scalable APIs and responsive user interfaces."
+  },
+  {
+    "id": 10,
+    "title": "Web Developer",
+    "salary": 46000,
+    "location": "Singapore",
+    "description": "Develop and maintain modern websites and web applications with a focus on performance, responsiveness, usability, and clean code."
+  }
+]
+}

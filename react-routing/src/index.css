@@ -15,9 +15,10 @@ body{
 .navbar{
   display: flex;
   justify-content: space-around;
-  background-color: coral;
+  background-color:tomato;
   margin: 10px;
   border-radius: 15px;
+  border: 1px solid black;
 }
 ul{
   display: flex;
@@ -81,4 +82,43 @@ a.active{
   margin-left: 50px;
   padding: 10px;
 
+}
+.jobs-list-container{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+.job-item{
+  background-color: tomato;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid  black;
+}
+.job-title{
+  text-align: center;
+  margin-top: 10px;
+}
+.job-location{
+  text-align: center;
+  margin-top: 10px;
+
+}
+.job-salary{
+  text-align:center;
+  margin-top: 10px;
+
+}
+.job-description{
+  margin-top: 10px;
+}
+.error-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h2,p,button{
+  margin-top: 15px;
 }
